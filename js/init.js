@@ -14,3 +14,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.modal').modal();
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems, options);
+});
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});

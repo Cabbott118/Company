@@ -23,3 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
 $(document).ready(function(){
   $('.carousel').carousel();
 });
+
+$(".hiddenCrap").hide();
+
+$(".itemOne").click(function(){
+  $(".hiddenCrap").show();
+});
